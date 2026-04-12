@@ -16,8 +16,6 @@ The dataset (student-mat.csv) is included in this repository for reproducibility
 
 ## How to run
 
-## Reproducibility
-
 This repository is designed to run in a single execution.
 
 All required files, including the dataset, are included.

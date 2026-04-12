@@ -6,13 +6,13 @@ This repository contains code for replicating a machine learning study on predic
 Cortez & Silva (2008) – Using Data Mining to Predict Secondary School Student Performance.
 
 ## Dataset
-UCI Student Performance Dataset:
-
+Primary source (Kaggle):
 https://www.kaggle.com/datasets/dskagglemt/student-performance-data-set
 
+Original source (UCI):
 https://archive.ics.uci.edu/ml/datasets/student+performance
 
-This project uses the Mathematics dataset (student-mat.csv).
+The dataset (student-mat.csv) is included in this repository for reproducibility.
 
 ## How to run
 

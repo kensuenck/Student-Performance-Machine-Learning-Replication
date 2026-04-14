@@ -18,23 +18,43 @@ The dataset (`student-mat.csv`) is included in this repository for reproducibili
 - pandas
 - scikit-learn
 
-## How to run
+## How to Run
 
-This repository is designed to run in a single execution.
+### Option 1: Google Colab (Recommended)
 
-All required files, including the dataset, are included.
+1. Upload all files (`.py`, `.csv`, `requirements.txt`) to Colab.
+2. Run the following in a code cell:
 
-### Steps
-1. Install dependencies:  
-   `pip install -r requirements.txt`
+```python
+!pip install -r requirements.txt
+!python replicate_student_performance.py
+```
 
-2. Run the script:  
-   `python replicate_student_performance.py`
+---
 
-The script will:
-- load the dataset
-- train Decision Tree and Random Forest models
-- output evaluation metrics
+### Option 2: Local Environment
+
+1. Install dependencies:
+
+```
+pip install -r requirements.txt
+```
+
+2. Run the script:
+
+```
+python replicate_student_performance.py
+```
+
+---
+
+### What the script does
+
+* Loads the dataset
+* Creates a binary target (pass/fail)
+* Trains Decision Tree and Random Forest models
+* Prints evaluation metrics
+
 
 ## Notes
 - The replication focuses on binary classification (pass/fail).
